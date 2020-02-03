@@ -22,14 +22,7 @@ khi đó ta dùng adstract.Ví dụ ta không thể để thuộc tính bơi hay
 ## 6. Overload là gì (đưa ra ví dụ).
 - Nạp chồng phương thức đơn giản là có vài phương thức trùng tên nhưng khác nhau về đối số trong cùng 1 class. Cài chồng phương thức cho phép ta tạo nhiều phiên bản của một phương thức, mỗi phiên bản chấp nhận một danh sách đối số khác nhau, nhằm tạo thuận lợi cho việc gọi phương thức.
 ## 7.Các access modifier trong java, khi dùng nó thì quyền truy cập sẽ như thế nào.
-|Access Modifier|Truy cập bên trong class|Truy cập bên trong package|Truy cập bên ngoài package bởi class con|Truy cập bên ngoài classvà 
-|               |                         |                          |                                        |hông thuộc class con|
-|-----------------------------------------------------------------------------------------------------------------------------------
-|
-|
-|
-|
-
-
-
-
+- private: Truy cập bên trong class.
+- mặc định: Truy cập bên trong class, Truy cập bên trong package.
+- protected:Truy cập bên trong class, Truy cập bên trong package,Truy cập bên ngoài package bởi class con.
+- public:Truy cập bên trong class, Truy cập bên trong package,Truy cập bên ngoài package bởi class con,Truy cập bên ngoài class và không thuộc class con.
